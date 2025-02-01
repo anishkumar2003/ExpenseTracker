@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital expense tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="outer-Container">
+        <h1>Expense Tracker</h1>
+
+        <form class="expense-Conatiner">
+            <input type="text" placeholder="Expense Name" required id="ExpName">
+            <input type="number" placeholder="Amount" required id="AmountInput" min="0">
+            <button class="AddBtn">Add Expense</button>
+        </form>
+        <h2>Expenses</h2>
+        <ul class="expense-list">
+
+        </ul>
+        <div class="total">
+            <h3>Total: $
+                <span id="Amount">0.00</span></h3>
+        </div>
+    </div>
+    <script src="Script.js"></script>
+</body>
+</html>
